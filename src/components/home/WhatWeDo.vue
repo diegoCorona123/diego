@@ -2,11 +2,11 @@
   <v-container fluid>
     <v-row align="center" justify="center">
       <v-col cols="12" md="3" lg="3" sm="4" class>
-        <p class="google-font mb-0" style="font-size:150%">What we do?</p>
+        <p class="google-font mb-0" style="font-size:150%">NOTA</p>
         <p
           class="google-font mt-0"
           style="font-size:95%"
-        >Bienbenido a un nuevo mundo lleno yevolucion sobre la nueva tecnologuia #ROBOT</p>
+        >Bienbenido a un nuevo mundo lleno de evolucion sobre la nueva tecnologuia #ROBOT</p>
         <p class="google-font" style="font-size:95%">About different Google technologies</p>
         <span v-for="(item,i) in whatwedodata" :key="i">
           <v-tooltip bottom>

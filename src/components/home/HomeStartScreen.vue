@@ -3,7 +3,7 @@
     <v-row align="center" class="fill-height">
       <v-col md="3" sm="6" cols="12" class>
         <v-img
-          :src="checkExistance(config.generalConfig.homeImage,0)?config.generalConfig.homeImage:require('@/assets/img/svg/home.svg')"
+          :src="checkExistance(config.generalConfig.homeImage,0)?config.generalConfig.homeImage:require('@/assets/img/svg/utom.png')"
           :lazy-src="checkExistance(config.generalConfig.homeImage,0)?config.generalConfig.homeImage:require('@/assets/img/svg/home.svg')"
           width="100%"
         >
@@ -22,22 +22,13 @@
         >
           <b>
             Automatizacion de robotica
-            <span style="color: #1a73e8;">#SOMOSUTOM</span>.
+            <span style="color: #e4e300;">#SOMOSUTOM</span>.
           </b>
         </p>
-        <p class="google-font mt-0 mb-0" style="font-size:150%">{{config.generalConfig.name}}</p>
-        <p class="google-font" style="font-size:100%">{{config.generalConfig.shortDescription}}</p>
+        <p>Una nueva <span style="color: #1a73e8;">era</span></p>
+        <p>forma naciente de automatización de los procesos de negocio que replica las acciones de un ser humano interactuando con la interfaz de usuario de un sistema informático </p>
         <p class="google-font" style="font-size:100%;color:#9e9e9e">
-          <span v-for="(item,i) in config.generalConfig.hashtags" :key="i">
-            <v-chip
-              :href="'https://twitter.com/hashtag/'+item"
-              rel="noreferrer"
-              target="_blank"
-              small
-              class="mr-1"
-            >#{{item}}</v-chip>
-            <!-- &nbsp; -->
-          </span>
+          
         </p>
 
         <v-btn

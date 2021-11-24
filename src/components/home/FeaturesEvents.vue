@@ -4,16 +4,16 @@
       <v-col cols="12" md="12" lg="12" sm="12" class="mb-0">
         <p class="google-font mb-0 mt-0" style="font-weight: 350;font-size:180%">
           <b>
-            Our
-            <span style="color: #1a73e8;">Feature Event</span>
-            &
-            <span style="color: #1a73e8;">Meetup</span>
+            El
+            <span style="color: #1a73e8;">Mejor</span>
+            en su
+            <span style="color: #1a73e8;">Contenido</span>
           </b>
         </p>
         <p
           class="google-font mt-0 mb-0"
           style="font-size:95%"
-        >Events are listed in reverse chronological order by date.</p>
+        >Los mejores eventos en su Campo</p>
       </v-col>
       <v-col cols="12" md="12" lg="12" sm="12" class="mt-0 pt-0 pa-0">
         <v-container fluid class="py-0 my-0">
