@@ -6,7 +6,7 @@
         <p
           class="google-font mt-0"
           style="font-size:95%"
-        >Google Developer Groups (GDGs) are for developers who are interested in Google's developer technology.</p>
+        >Bienbenido a un nuevo mundo lleno yevolucion sobre la nueva tecnologuia #ROBOT</p>
         <p class="google-font" style="font-size:95%">About different Google technologies</p>
         <span v-for="(item,i) in whatwedodata" :key="i">
           <v-tooltip bottom>
