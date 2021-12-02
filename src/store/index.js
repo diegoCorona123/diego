@@ -16,7 +16,7 @@ export default new Vuex.Store({
       footerConfig: {},
     },
     items: [{
-        text: 'Home',
+        text: 'INICIO',
         to: '/',
         icon: 'mdi-home',
         meta: {
@@ -25,7 +25,7 @@ export default new Vuex.Store({
         },
       },
       {
-        text: 'Events',
+        text: 'EVENTOS',
         to: '/events',
         icon: 'mdi-assistant',
         meta: {
@@ -34,7 +34,7 @@ export default new Vuex.Store({
         },
       },
       {
-        text: 'Team',
+        text: 'EQUIPO',
         to: '/team',
         icon: 'mdi-account-settings',
         meta: {
@@ -61,7 +61,7 @@ export default new Vuex.Store({
         },
       },
       {
-        text: 'Contact',
+        text: 'CONTACTOS',
         to: '/contact',
         icon: 'mdi-contacts',
         meta: {
@@ -70,7 +70,7 @@ export default new Vuex.Store({
         },
       },
       {
-        text: 'Partners',
+        text: 'SOCIOS',
         to: '/partners',
         icon: 'mdi-currency-usd',
         meta: {

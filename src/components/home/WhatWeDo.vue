@@ -7,7 +7,7 @@
           class="google-font mt-0"
           style="font-size:95%"
         >Bienbenido a un nuevo mundo lleno de evolucion sobre la nueva tecnologuia #ROBOT</p>
-        <p class="google-font" style="font-size:95%">About different Google technologies</p>
+        <p class="google-font" style="font-size:95%">TODAS LAS TECNOLOGIAS</p>
         <span v-for="(item,i) in whatwedodata" :key="i">
           <v-tooltip bottom>
             <template v-slot:activator="{ on }">
@@ -25,35 +25,35 @@
           <v-row>
             <v-col md="3" lg="3" sm="6" cols="6" class="text-center pa-2">
               <v-icon large style="font-size:300%">mdi-comment</v-icon>
-              <p class="google-font mt-2" style="font-size:130%">Talks</p>
+              <p class="google-font mt-2" style="font-size:130%">robotica</p>
               <p
                 class="google-font"
                 style="font-size:95%"
-              >Get updated with the latest news and announcements</p>
+              >La mejor enseñansa para todos y para todas en todo su campo.</p>
             </v-col>
             <v-col md="3" lg="3" sm="6" cols="6" class="text-center pa-2">
               <v-icon large style="font-size:300%">mdi-code-tags</v-icon>
-              <p class="google-font mt-2" style="font-size:130%">Codelabs</p>
+              <p class="google-font mt-2" style="font-size:130%">Programacion</p>
               <p
                 class="google-font"
                 style="font-size:95%"
-              >Get hands-on experience and guidance from the community members</p>
+              >Los lenguajes mas utizados y mejor explicados faciles de entenders.</p>
             </v-col>
             <v-col md="3" lg="3" sm="6" cols="6" class="text-center pa-2">
               <v-icon large style="font-size:300%">mdi-school</v-icon>
-              <p class="google-font mt-2" style="font-size:130%">Campus Roadshows</p>
+              <p class="google-font mt-2" style="font-size:130%">Preparacion</p>
               <p
                 class="google-font"
                 style="font-size:95%"
-              >Share knowledge in different Companies, colleges and universities</p>
+              >Te preparamos para que tengas los mejores conocimientos en tu campo.</p>
             </v-col>
             <v-col md="3" lg="3" sm="6" cols="6" class="text-center pa-2">
               <v-icon large style="font-size:300%">mdi-chart-bubble</v-icon>
-              <p class="google-font mt-2" style="font-size:130%">Live Viewing Parties</p>
+              <p class="google-font mt-2" style="font-size:130%">Programas</p>
               <p
                 class="google-font"
                 style="font-size:95%"
-              >Share knowledge in different Companies, colleges and universities</p>
+              >Los mejores programas con las mejores herramientas listas para su funcionamiento</p>
             </v-col>
           </v-row>
         </v-container>

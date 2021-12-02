@@ -22,11 +22,13 @@
         >
           <b>
             Automatizacion de robotica
-            <span style="color: #e4e300;">#SOMOSUTOM</span>.
+            <span style="color: #DDDA3A;">#TIC</span>
           </b>
         </p>
-        <p>Una nueva <span style="color: #1a73e8;">era</span></p>
-        <p>forma naciente de automatización de los procesos de negocio que replica las acciones de un ser humano interactuando con la interfaz de usuario de un sistema informático </p>
+        <p>UNA NUEVA<span style="color: #ACAA2A;"> ERA </span></p>
+        <p>forma naciente de automatización de los procesos de negocio que replica las acciones de un ser humano interactuando con la interfaz de usuario de un sistema,
+          Sabemos que la transformación digital es una de las tendencias top en la cultura empresarial y la automatización robótica de procesos es uno de sus pilares básicos.
+        </p>
         <p class="google-font" style="font-size:100%;color:#9e9e9e">
           
         </p>
@@ -38,7 +40,7 @@
           rel="noreferrer"
           aria-label="Become a Member"
           class="ma-0 google-font elevation-1 primary mr-2"
-          style="text-transform: capitalize;border-radius:5px;color:white"
+          style="text-transform: capitalize;border-radius:5px;color:#E7E736"
         >Reguistrar</v-btn>
         <v-btn
           v-if="checkExistance(config.generalConfig.learnMoreLink,0)"
@@ -48,7 +50,7 @@
           rounded
           rel="noreferrer"
           color="cyan"
-          style="text-transform: capitalize;border-radius:5px;text-transform: capitalize;"
+          style="text-transform: capitalize;border-radius:5px;text-transform: capitalize;color:#E7E736"
           outlined
           class="ml-0"
           dark
