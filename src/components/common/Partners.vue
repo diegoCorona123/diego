@@ -10,17 +10,18 @@
             </v-col>
         </v-row>
 
-        
-
-        <v-row align="center" justify="start" class="mt-0">
-            <v-col cols="12" md="12" lg="12" sm="12" class="mx-1 mt-5">
-                <p>Robotica RPC</p>
+        <v-row align="center" justify="center" class="mt-0">
+            <v-col cols="6" md="6" lg="6" sm="6" class="mx-1 mt-5">
+                <p>Robotica RPC<v-icon>mdi-youtube-play</v-icon></p> 
             </v-col>
-            <v-col cols="6" md="3" lg="2" xl="2" sm="4">
+           
+            <v-col cols="6" md="6" lg="6" xl="6" sm="6">
+               
                 
               <iframe width="560" height="315" src="https://www.youtube.com/embed/dq7ieDoFI0U?start=23" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 
             </v-col>
+           
         </v-row>
      
     </v-container>

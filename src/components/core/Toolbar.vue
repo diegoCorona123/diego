@@ -16,9 +16,9 @@
           alt="Community Logo"
           class="shrink mr-2"
           contain
-          :src="config.generalConfig.toolbarImage"
+          src="@/assets/img/svg/pngegg (1).png"
           transition="scale-transition"
-          width="25"
+          width="50"
         />
       </router-link>
     </div>
@@ -29,8 +29,7 @@
         aria-label="Communiy homepage"
         style="text-decoration:none;font-size:110%"
         :class="this.$vuetify.theme.dark?'whiteText':'blackText'"
-      >
-      {{config.generalConfig.shortName || config.generalConfig.name || ""}}</router-link>
+      >ROBOTICA</router-link>
     </v-toolbar-title>
     <v-spacer></v-spacer>
 

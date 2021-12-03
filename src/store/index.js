@@ -43,7 +43,7 @@ export default new Vuex.Store({
         },
       },
       {
-        text: 'Speakers',
+        text: 'PERSONAL',
         to: '/speakers',
         icon: 'mdi-assistant',
         meta: {
@@ -52,7 +52,7 @@ export default new Vuex.Store({
         },
       },
       {
-        text: 'About',
+        text: 'ACERCA DE',
         to: '/about',
         icon: 'mdi-comment-alert',
         meta: {
@@ -79,7 +79,7 @@ export default new Vuex.Store({
         },
       },
       {
-        text: 'Blogs',
+        text: 'BLOGS',
         to: '/blogs',
         icon: 'mdi-blogger',
         meta: {
