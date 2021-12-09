@@ -5,9 +5,9 @@
         <p
           class="google-font mb-1"
           style="font-size:110%"
-        >Our events are open to newbies, developers, managers, and organizations who are interested in Google's technologies or use them as part of their projects.</p>
-        <p class="google-font">{{data.shortDescription}}</p>
-        <p class="google-font mt-5">Questions? Please contact {{data.email}}</p>
+        >Dentro de esta ventana encontrara algunos tipos de comunicacion hacia nuetro perosonal si llega atener algun problema le agradeceremos si nos contactaa nuetro servicio tecnico.</p>
+        <p>Contamos con: El servicio de atención al cliente, o simplemente servicio al cliente, es el que ofrece una empresa para relacionarse con sus clientes</p>
+        <p class="google-font mt-5">¿cuales son tus dudas? </p>
         <CommunitySocialInfo :config="config"  class="mb-2"/>
         <span v-for="(item,i) in data.hashtags" :key="i" >
           <v-chip
@@ -19,7 +19,7 @@
         </span>
       </v-col>
       <v-col md="3" sm="6" cols="12" class="py-0 my-0">
-        <img :src="require('@/assets/img/svg/contact.svg')" style="float:right" width="80%" alt />
+        <img :src="require('@/assets/img/svg/malos.png')" style="float:right" width="80%" alt />
       </v-col>
     </v-row>
   </v-container>

@@ -2,37 +2,28 @@
     <v-container fluid class="py-0 my-0 mt-5">
         <v-row class="py-0 my-0">
             <v-col md="12" sm="12" cols="12" class="py-0 my-0">
-                <h1 class="google-font mb-2">AntiHarassment Policy</h1>
+                <h1 class="google-font mb-2">Nuestra Politica</h1>
             </v-col>
         </v-row>
         <v-row class="py-0 my-0">
             <v-col md="8" sm="12" cols="12" class="py-0 my-0">
                 <p class="google-font" style="font-size:100%">
-                    <b style="font-size:120%;">Why do we have an official Anti-Harassment policy for {{data}} events?</b>
-
-                    <ul class="mt-2" style="font-size:100%">
-                        <li class="google-font">It sets expectations for behavior at the event. Simply having an anti-harassment policy can prevent harassment.</li>
-                        <li class="google-font">It encourages people to attend who have had bad experiences at other events</li>
-                        <li class="google-font">It gives event staff/volunteers instructions on how to handle harassment quickly, with minimum amount of disruption for the event.</li>
-                    </ul>
+                    <b style="font-size:120%;">son pautas o criterios que se tienen en cuenta para la consecución de objetivos en la misma. Sirven para gobernar la acción en el caminar hacia un objetivo, ayudando a delegar y mantener la buena relación entre personas.</b>
                 </p>
 
                 <p class="google-font" style="font-size:110%">
-                    <b style="font-size:120%;">{{data}} is dedicated to providing a harassment-free event experience for everyone, regardless of: </b>
+                    <b>Pequeños Requisitos</b>
 
                     <ul class="mt-2" style="font-size:110%">
-                        <li class="google-font">Gender</li>
-                        <li class="google-font">Sexual Orientation</li>
-                        <li class="google-font">Disability</li>
-                        <li class="google-font">Gender Identity</li>
-                        <li class="google-font">Age</li>
-                        <li class="google-font">Race</li>
-                        <li class="google-font">Religion</li>
-                        <li class="google-font">Nationality</li>
+                        <li class="google-font">Preparatoria</li>
+                        <li class="google-font">Experiencia de un año</li>
+                        <li class="google-font">Ganas de trabajar</li>
+                        <li class="google-font">Experiencia en roborotica</li>
+                        <li class="google-font">Experiencia en programacion</li>
+                        <li class="google-font">Almenos dos lenguajes de programacion</li>
                     </ul>
 
-                    <span class="google-font" style="font-size:100%">The above is not an exhaustive list -- we do not tolerate harassment of event spanarticipants in any form. </span>
-                </p>
+                   </p>
 
                 <p class="google-font" style="font-size:120%">Sexual language and imagery is not appropriate for any event venue, including talks. Event participants violating these rules may be expelled from the event, and event banned from future events at the discretion of the event organizers/management. </p>
 

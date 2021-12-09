@@ -3,10 +3,10 @@
         <v-row class="py-0 my-0" align="center">
             <v-col md="4" sm="12" cols="12" class="py-0 my-0">
                 <v-img
-                    :src="require('@/assets/img/dontremove/about.png')"
-                    :lazy-src="require('@/assets/img/dontremove/about.png')"
-                    class=" mb-3"
-                    width="100%"
+                    :src="require('@/assets/img/dontremove/somos.png')"
+                    
+                    class=" mb-1"
+                    width="60%"
                 >
                     <template v-slot:placeholder>
                         <v-row
@@ -19,15 +19,20 @@
                     </template>
                 </v-img>
             </v-col>
-            <v-col md="8" sm="12" cols="12" class="py-0 my-0">
-                <!-- {{data}} -->
-                <p class="google-font mt-0" style="font-size:110%">{{data.longDescription}}</p>
+            <v-col md="6" sm="8" cols="8" class="py-0 my-0">
+                <p class="google-font mb-0" style="font-weight: 350;font-size:200%"><b>
+                    <span style="color: #1a73e8;">NUESTRA EMPRESA</span> </b> 
+                </p>
+                <p class="google-font" style="font-size:100%">
+                    <b style="font-size:120%;">Nuestra empresa obótica es la encargada de fabricar los distintos tipos de maquinarias que permiten agilizar el trabajo de una empresa. ... Así como también productos de automatización: fabricación de productos como controladores de velocidad, motores y generadores eléctricos, en general es equipamiento para baja tensión</b>
+                </p>
                 <br>
-                <v-btn v-if="checkExistance(data.becomemember, 0)" :href="data.becomemember" target="_blank" class="ma-0 google-font elevation-1 primary" style="text-transform: capitalize;border-radius:5px;color:white">Become a Member</v-btn>
+        
+                <v-btn href="https://rivasrobotics.com/empresa-de-robotica/">Visitanos</v-btn>
 
                 &nbsp;
 
-                <v-btn v-if="checkExistance(data.learnMoreLink, 0)" :href="data.learnMoreLink" target="_blank" rounded color="cyan" style="text-transform: capitalize;border-radius:5px;text-transform: capitalize;" outlined  class="ml-0" dark>Learn More</v-btn>
+                <v-btn href="https://universidadean.edu.co/noticias/top-10-lo-mejor-de-la-robotica">Mas Empresas</v-btn>
 
             </v-col>
         </v-row>
