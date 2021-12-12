@@ -28,7 +28,7 @@
                 </p>
                 <br>
         
-                <v-btn href="https://rivasrobotics.com/empresa-de-robotica/">Visitanos</v-btn>
+                <v-btn href="https://goo.gl/maps/YzDD9h5NvhYLRK5i7">Visitanos</v-btn>
 
                 &nbsp;
 

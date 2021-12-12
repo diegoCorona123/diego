@@ -21,7 +21,7 @@
           style="font-weight: 350;font-size:230%"
         >
           <b>
-            Automatizacion de robotica 123
+            Automatizacion de robotica
             <span style="color: #DDDA3A;">#TIC</span>
           </b>
         </p>

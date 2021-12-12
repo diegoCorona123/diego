@@ -8,7 +8,7 @@
           icon
           v-on="on"
           rel="noreferrer"
-          :href="config.generalConfig.socialLinks.facebook"
+          href="https://www.facebook.com/KUKAGlobal/"
           target="_blank"
           slot="activator"
         >
@@ -24,7 +24,7 @@
           icon
           v-on="on"
           rel="noreferrer"
-          :href="config.generalConfig.socialLinks.youtube"
+          href="https://www.youtube.com/c/KukaRobotGroup"
           target="_blank"
           slot="activator"
         >
@@ -34,22 +34,7 @@
       </template>
       <span>YouTube</span>
     </v-tooltip>
-    <v-tooltip top v-if="checkExistance(config.generalConfig.socialLinks.medium,0)">
-      <template v-slot:activator="{ on }">
-        <v-btn
-          text
-          icon
-          v-on="on"
-          rel="noreferrer"
-          :href="config.generalConfig.socialLinks.medium"
-          target="_blank"
-          slot="activator"
-        >
-          <v-icon>mdi-medium</v-icon>
-        </v-btn>
-      </template>
-      <span>Medium</span>
-    </v-tooltip>
+    
   </p>
 </template>
 

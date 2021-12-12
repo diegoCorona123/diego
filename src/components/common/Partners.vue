@@ -12,13 +12,13 @@
 
         <v-row align="center" justify="center" class="mt-0">
             <v-col cols="6" md="6" lg="6" sm="6" class="mx-1 mt-5">
-                <p>Robotica RPC<v-icon>mdi-youtube-play</v-icon></p> 
+                <p>Robotica RPA<v-icon>mdi-youtube-play</v-icon></p> 
             </v-col>
            
             <v-col cols="6" md="6" lg="6" xl="6" sm="6">
                
                 
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/dq7ieDoFI0U?start=23" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/dq7ieDoFI0U?start=10" title="Automatización robotica" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 
             </v-col>
            

@@ -10,12 +10,7 @@
         <p class="google-font mt-5">¿cuales son tus dudas? </p>
         <CommunitySocialInfo :config="config"  class="mb-2"/>
         <span v-for="(item,i) in data.hashtags" :key="i" >
-          <v-chip
-            class="mr-1 mb-1"
-            :href="'https://twitter.com/hashtag/'+item"
-            target="_blank"
-            label
-          >#{{item}}</v-chip>
+          
         </span>
       </v-col>
       <v-col md="3" sm="6" cols="12" class="py-0 my-0">
