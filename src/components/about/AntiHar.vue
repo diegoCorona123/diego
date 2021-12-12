@@ -37,7 +37,7 @@
                     </ul>
                 </p>
                 <center>
-                <p class="google-font" style="font-size:100%">NUMERO #1 A NIVEL MUNDIAL</p>
+                <p class="google-font" style="font-size:100%">NUMERO #1 A NIVEL MUNDIAL.</p>
                 <br>
                 
                 <img src='@/assets/img/svg/empresa.png' title="Automatización" width="512" height="320" >
