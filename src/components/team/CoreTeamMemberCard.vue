@@ -11,12 +11,15 @@
                     :lazy-src="getImgUrl(data.image, 'profile.jpg')" alt=""
                   >
                 </v-avatar>
-                <p class="mt-3 mb-0 google-font mb-0" style="font-size:120%">{{data.name | summery(20)}}</p>
-                <p class="mt-1 mb-0 google-font mt-0" style="font-size:80%">{{data.designation | summery(20)}}</p>
+                <p class="mt-3 mb-0 google-font mb-0" style="font-size:120%">Diego Corona</p>
+                <p class="mt-1 mb-0 google-font mt-0" style="font-size:80%">Programador</p>
                 <socialMediaDetails :data="data.socialLinks"/>
+                
+                
           </div>
           
       </template>
+      
 
       <v-card :class="theme.isDark?'grey darken-3':'white'">
         <v-card-title

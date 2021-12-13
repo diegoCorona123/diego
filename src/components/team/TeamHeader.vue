@@ -3,10 +3,10 @@
         <v-row align="center" class="py-0 my-0">
             <v-col md="12" sm="12" cols="12" class="py-0 my-0">
                 <p class="google-font mb-0" style="font-weight: 350;font-size:200%"><b>
-                    <span style="color: #1a73e8;">Our</span> Team </b> 
+                    <span style="color: #1a73e8;">Nuestro</span> Equipo</b> 
                 </p>
-                <p class="google-font mt-0 hidden-sm-and-down">Google is known all around the world. Everyone is 'googling', checking on 'maps' and communicating in 'gmail'. For simple users, they are services that just works, but not for us. Developers see much more: APIs, scalability issues, complex technology stacks. And that is what GDG is about.</p>
-                <p class="google-font mt-0 ">Our goal is to organize space to connect the best industry experts with Indian audience to boost development of IT. And Our Core Team is:</p>
+                <p class="google-font mt-0 hidden-sm-and-down">Contamos con dos de los mejores desarroladores en su campo, con una alta experiencia cerca de 8 años con mas de 5 leguajes de programación.</p>
+                <p class="google-font mt-0 ">Ellos se encargan de realizan tareas de investigación, diseño y desarrollo de programas que controlan el funcionamiento interno de los ordenadores y redes informáticas, la mejor alternativa para formarte en esta área es la carrera de Ingeniería en Sistemas, que además te enseñará sobre muchos otros aspectos, factores y campos del ámbito tecnológico.</p>
                 
             </v-col>
         </v-row>

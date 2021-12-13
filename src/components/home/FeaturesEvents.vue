@@ -4,10 +4,10 @@
       <v-col cols="12" md="12" lg="12" sm="12" class="mb-0">
         <p class="google-font mb-0 mt-0" style="font-weight: 350;font-size:180%">
           <b>
-            El
-            <span style="color: #1a73e8;">Mejor</span>
-            en su
-            <span style="color: #1a73e8;">Contenido</span>
+            LOS
+            <span style="color: #1a73e8;">CURSOS</span>
+            ADECUADOS PARA
+            <span style="color: #1a73e8;">USTED</span>
           </b>
         </p>
         <p

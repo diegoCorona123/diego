@@ -14,7 +14,7 @@
           <p>Nunca le enviamos spam enviándole notificaciones.</p>
           <p>
             <span class="font-weight-bold text--primary">Estado:</span>
-            {{ token }}
+            Contamos un hambiente agradable
           </p>
         </v-card-text>
 
@@ -29,7 +29,7 @@
             :disabled="buttonText=='Allowed'"
             @click="requestPermission"
           >{{ buttonText }}</v-btn>
-          <v-btn color="error" text @click="dialog = false">Cerrar</v-btn>
+          <v-btn color="error" text @click="dialog = false">Exit</v-btn>
         </v-card-actions>
       </v-card>
     </v-dialog>

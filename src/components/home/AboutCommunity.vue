@@ -12,19 +12,19 @@
             son sistemas diseñados para realizar determinadas tareas, por lo general repetitivas y regladas eliminando de dicha tarea al empleado.</p>
             <v-btn
               v-if="checkExistance(config.generalConfig.meetupLink,0)"
-              :href="config.generalConfig.meetupLink"
+              href="https://www.youtube.com/watch?v=fw7pVqCfkh0"
               target="_blank"
               outlined
               color
               class="ma-0 google-font mb-2"
               style="border-radius:5px;text-transform: capitalize;color:white"
-            >Inscribete</v-btn>&nbsp;
+            >¿QUE ES RPA?</v-btn>&nbsp;
             <br />
             <router-link
               to="/about"
               class="google-font"
               style="text-decoration:none;color:white"
-            >Comunicacaion {{config.generalConfig.shortName || config.generalConfig.name}}</router-link>
+            >La mejor información dentro de todo el campo</router-link>
           </div>
         </div>
       </v-col>

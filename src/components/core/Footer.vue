@@ -23,17 +23,17 @@
 
             <v-row justify="start" class="">
               <v-col cols="12" md="3" lg="3" sm="3" class="py-2" >
-                  <p class="google-font mb-0" style="font-size: 140%;font-weight: 300;"><b>Create Dc ♣</b></p>
+                  <p class="google-font mb-0" style="font-size: 140%;font-weight: 300;"><b>Téc Diego Corona</b></p>
+                  <p class="google-font mb-0" style="font-size: 140%;font-weight: 300;"><b>Téc Ignacio Coronel</b></p>
+              </v-col>
+
+              <v-col cols="12" md="3" lg="3" sm="3" class="py-2" >
+                  <p class="google-font mb-0" style="font-size: 140%;font-weight: 300;"><b>Ubicacion:Maravatio</b></p>
                   
               </v-col>
 
               <v-col cols="12" md="3" lg="3" sm="3" class="py-2" >
-                  <p class="google-font mb-0" style="font-size: 140%;font-weight: 300;"><b>Ubicacion:Dubai</b></p>
-                  
-              </v-col>
-
-              <v-col cols="12" md="3" lg="3" sm="3" class="py-2" >
-                  <p class="google-font mb-0" style="font-size: 140%;font-weight: 300;"><b>Telefono:099</b></p>
+                  <p class="google-font mb-0" style="font-size: 140%;font-weight: 300;"><b>Telefono:447-171-87-09</b></p>
               </v-col>
             </v-row>
 
@@ -50,10 +50,10 @@
             
                
             <v-spacer></v-spacer>
-           <span >Project 
+           <span >Tecnologias de la
           <a
             
-          > WEB</a></span>
+          >Información</a></span>
           </v-toolbar>
         </v-col>
       </v-row>

@@ -16,7 +16,7 @@
           alt="Community Logo"
           class="shrink mr-2"
           contain
-          src="@/assets/img/svg/pngegg (1).png"
+          src="@/assets/img/svg/logo2.png"
           transition="scale-transition"
           width="50"
         />

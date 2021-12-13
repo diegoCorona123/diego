@@ -24,7 +24,7 @@
         <v-container fluid>
           <v-row>
             <v-col md="3" lg="3" sm="6" cols="6" class="text-center pa-2">
-              <v-icon large style="font-size:300%">mdi-comment</v-icon>
+              <v-icon large style="font-size:300%">mdi-robot</v-icon>
               <p class="google-font mt-2" style="font-size:130%">robotica</p>
               <p
                 class="google-font"
@@ -48,7 +48,7 @@
               >Te preparamos para que tengas los mejores conocimientos en tu campo.</p>
             </v-col>
             <v-col md="3" lg="3" sm="6" cols="6" class="text-center pa-2">
-              <v-icon large style="font-size:300%">mdi-chart-bubble</v-icon>
+              <v-icon large style="font-size:300%">mdi-android</v-icon>
               <p class="google-font mt-2" style="font-size:130%">Programas</p>
               <p
                 class="google-font"

@@ -9,12 +9,13 @@
         class="pa-3 py-5 fill-height"
       >
         <p class="google-font mb-0" style="font-size:90%">{{data.date | dateFilter}}</p>
-        <p class="google-font mb-0" style="font-size:120%">{{data.name | summary(15)}}</p>
-        <p class="google-font mb-0" style="font-size:90%">{{data.venue.name | summary(20)}}</p>
+        <p>ROS</p>
+        <p>Cursos Monterrey</p>
         <v-spacer></v-spacer>
         <p class="mb-0 mt-2 google-font" style="color:#1a73e8">INFORMACION</p>
       </div>
     </template>
+    
     <v-card
       color
       v-if="dialog"
@@ -23,7 +24,7 @@
       :class="this.$vuetify.theme.dark == true?'grey darken-3':'white'"
     >
       <v-card-title class="px-5 py-5 google-font" style="background-position:right bottom;">
-        <p class="google-font mb-0" style="font-size:150%">{{data.name}}</p>
+        <p>ROS</p>
         <v-spacer></v-spacer>
         <v-tooltip bottom>
       <template v-slot:activator="{ on }">
@@ -31,64 +32,51 @@
           <v-icon>mdi-open-in-new</v-icon>
         </v-btn> 
       </template>
-      <span>Open in New Tab</span>
+      <span>Abrir en una pestaña nueva</span>
     </v-tooltip>
         
       </v-card-title>
 
       <v-card-text class="pb-5 pt-0">
         <p class="google-font mb-0" style="font-size:120%">{{data.date}}</p>
-        <p class="google-font mb-0" style="font-size:110%">{{data.venue.name}}</p>
+        <p>Abierto</p>
         <p class="google-font">{{data.time.starttime}} - {{data.time.endtime}}</p>
 
         <p class="google-font mb-0" style="font-size:95%">
-          <b>Description</b>
+          <b>Cursos monterrey</b>
         </p>
-        <p class="google-font mt-0" style="font-size:110%">{{data.des}}</p>
+        <p>
+ROS significa Robot Operating System. Es un marco de código abierto que se utiliza para ayudar en el desarrollo de robots avanzados.
+En esta capacitación en vivo dirigida por un instructor, los participantes aprenderán cómo comenzar a usar ROS para sus proyectos de robótica a través del uso de herramientas de visualización y simulación de robótica.</p>
 
-        <v-btn
-          color="indigo"
-          target="_blank"
-          @click="goToEvent(data.id)"
-          class="ma-0 elevation-0 my-2 mr-3"
-          dark
-          style="text-transform: capitalize;"
-        >Event Page</v-btn>
+        
 
         <v-btn
           color="#1a73e8"
           v-if="checkExistance(data.links.registration,0)"
-          :href="data.links.registration"
+          href="https://www.nobleprog.mx/ros/cursos/monterrey"
           target="_blank"
           class="ma-0 elevation-0 my-2 mr-3"
           dark
           style="text-transform: capitalize;"
-        >Registration Link</v-btn>
+        >Mas Informacion</v-btn>
         <v-btn
           color="pink"
           v-if="checkExistance(data.links.meetup,0)"
-          :href="data.links.meetup"
+          href="https://www.google.com/maps/search/Boulevard+D%C3%ADaz+Ordaz+140,+,+Monterrey,+NLE,+64650,+mx/@25.6718403,-100.3900869,15z/data=!3m1!4b1"
           target="_blank"
           class="ma-0 elevation-0 my-2 mr-3"
           dark
           style="text-transform: capitalize;"
-        >Meetup Page</v-btn>
-        <v-btn
-          color="red"
-          v-if="checkExistance(data.links.youtube,0)"
-          :href="data.links.youtube"
-          target="_blank"
-          class="ma-0 elevation-0 my-2 mr-3"
-          dark
-          style="text-transform: capitalize;"
-        >YouTube Live</v-btn>
+        >Visitanos</v-btn>
+      
       </v-card-text>
 
       <v-divider></v-divider>
 
       <v-card-actions :class="this.$vuetify.theme.dark == true?'grey darken-3':'grey lighten-3'">
         <v-spacer></v-spacer>
-        <v-btn color="primary" text @click="dialog = false">Close</v-btn>
+        <v-btn color="primary" text @click="dialog = false">Exit</v-btn>
       </v-card-actions>
     </v-card>
   </v-dialog>
